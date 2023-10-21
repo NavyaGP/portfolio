@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(joanna-kosinska-9gfGDbxuqrU-unsplash.jpg);
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:darkgoldenrod;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: red;
+}
+header{
+    text-align: center;
+    margin-top: 180px;
+  
+    
+}
+
+.text{
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 5px;
+    position: relative;
+    font-family: monospace;
+    border-right: 2px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgb(12, 53, 12);
+    animation:
+    typing 7s ,
+    cursor .7s step-end infinite alternate;
+    animation-iteration-count: initial;
+    
+}
+
+
+@keyframes cursor{
+    50% { border-color: transparent}
+}
+@keyframes typing{
+    from {width: 0}
+}
+
+#one:hover{
+    color: red;
+}
+#detel{
+    margin-top: 320px;
+    padding-top: 230px;
+    margin-left: 20%;
+    font-size: 50px;
+    color: rgb(4, 78, 4);
+    margin-bottom: 20px;
+}
+#no{
+    margin-left: 20%;
+    color: rgb(11, 12, 11);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+}
+span{
+    color: rgb(214, 188, 40);
+}
+.back{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url(depositphotos_91849752-stock-photo-mock-up-poster-with-ceiling.jpg);
+    background-size: 100%;
+}
+.service{
+    background: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h3{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+section{
+    background-color:black;
+    color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+.col .contents{
+    padding: 0px 30px;
+    border-left: 2px solid white;
+}
+.col .contents .box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.col .contents .box:hover{
+    box-shadow: 0px 3px 12px 0px white;
+    border: 1px solid transparent;
+}
+.col .contents .box::before{
+    content:'';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color:aqua;
+    border: 2px solid black;
+}
+.box h4{
+    position: relative;
+    color: white;
+}
+.box h3{
+    font-size: 19px;
+    padding: 10px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aqua;
+}
+.box p{
+    line-height: 1.2;
+    color: white;
+    font-size: 17px;
+}
+.service1{
+    background: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title1 h3{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+section{
+    background-color:black;
+    color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+.col1 .contents1{
+    padding: 0px 30px;
+    border-left: 2px solid white;
+}
+.col1 .contents1 .box1{
+    position: relative;
+    padding: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.col1 .contents1 .box1:hover{
+    box-shadow: 0px 3px 12px 0px white;
+    border: 1px solid transparent;
+}
+.col1 .contents1 .box1::before{
+    content:'';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color:palevioletred;
+    border: 2px solid black;
+}
+.footer{
+      background-color: black;
+      padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.service2{
+    background: transparent;
+    width: 100%;
+    padding: 70px 0px;
+}
+.title2 h6{
+    color:black;
+    font-size: 55px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+footer{
+    border:2px solid white;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background-image: url(background.jpg);
+    background-size: 100%;
+
+}
+.foo{
+    margin-right: 1200px;
+}
+.form{
+    margin-top: -200px;
+
+}
+#form2{
+    text-align: center;
+}
+
